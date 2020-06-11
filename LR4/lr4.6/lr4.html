@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Оператор return</title>
+
+    <script type="text/javascript">
+
+        function Sum(a, b) {
+          
+
+            alert('Hello!'); // return прерывает выполнение кода
+            return a + b;
+        }
+
+      
+
+ function Qu(a, b) {
+          
+          
+           var z = a;// return прерывает выполнение кода
+            
+            for (i = 0; i < (b - 1); i++){
+              a=a*z;
+            }
+            return a;
+        }
+
+  var res = Sum(2, 3);
+  var res2 = Qu(2, 3);
+        document.write("Сумма: ", res);
+        document.write(". Возведение в степень: ", res2);
+    </script>
+
+</head>
+<body>
+</body>
+</html>
